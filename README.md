@@ -18,7 +18,7 @@ OFD 是中国的电子文件版式标准，广泛用于电子发票、电子证�
 - [.NET](#net)
 - [JavaScript](#javascript)
 - [Pascal](#pascal)
-- [横向对比速查](#横向对比速查)
+- [选型参考（可能过时）](#选型参考可能过时)
 - [贡献](#贡献)
 - [说明](#说明)
 
@@ -76,11 +76,6 @@ OFD 是中国的电子文件版式标准，广泛用于电子发票、电子证�
 | [leijacob-ofd](https://gitee.com/leijacob/ofd) | 无 | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ✅ | ✅ | ✅ | ❌ |
 | [signer-tools](https://gitee.com/leijacob/signer-tools) | 无 | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ |
 
-**推荐**
-
-- **全能首选**：[go-zc310](https://github.com/zc310/ofd) —— 能力覆盖最广（预览、发票、PDF→OFD、签章、SVG/MD/HTML 导出），社区活跃。
-- **自建查看器**：[go-ofdgo](https://github.com/xiaoqidun/ofdgo) —— 唯一自带可视化编辑器的 Go 库，且 PDF→OFD 实测成功率最高。
-
 ## Rust
 
 - [easyofd-rust](https://github.com/easy-4-rust/easyofd-rust) - 文档最完整的 Rust OFD 库，适合生成、签章、PDF/MD 导出
@@ -104,13 +99,6 @@ OFD 是中国的电子文件版式标准，广泛用于电子发票、电子证�
 | [rofd](https://github.com/office-rs/rofd) | Apache-2.0 | ✅ | ✅ | ❌ | ⚠️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ |
 | [ofd-viewer](https://github.com/shaoyi1998/ofd-viewer) | MIT | ✅ | ✅ | ❌ | ❌ | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [fapiao-print](https://github.com/erma0/fapiao-print) | MIT | ✅ | ✅ | ✅ | ⚠️ | ✅ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
-
-> ⚠️ **easyofd-rust** 的 PDF→OFD 实测质量较差：可能输出空页、CID 字体乱码、版面固定，体积/速度优势来自内容丢失。
-> ⚠️ **rofd** 的 → 图片为部分支持。
-
-**推荐**
-
-- **功能最全**：[easyofd-rust](https://github.com/easy-4-rust/easyofd-rust) —— 官方文档最完整的 Rust OFD 库，适合生成、签章、PDF 导出。
 
 ## Python
 
@@ -137,11 +125,6 @@ OFD 是中国的电子文件版式标准，广泛用于电子发票、电子证�
 | [pdf2ofd](https://github.com/wanglrebe/pdf2ofd) | MIT | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ |
 | [ofd-parser](https://github.com/jyh2012/ofd-parser) | 无 | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [OfficeMaster](https://github.com/Chingliu/OfficeMaster_document_convert_system) | MIT | ❌ | ✅ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ | ✅ | ✅ | ❌ | ❌ | ❌ |
-
-> **选型提示**
-> - **发票渲染/预览**：[easyofd](https://pypi.org/project/easyofd/)（pip 可装，`→ PDF` 为部分支持，基于图片渲染）。
-> - **文本提取**：[ofdreader](https://pypi.org/project/ofdreader/)（同时支持生成与 → TXT）。
-> - **纯 PDF→OFD**：[pdf2ofd](https://github.com/wanglrebe/pdf2ofd)（`pip install pdf2ofd`）。
 
 ## Java
 
@@ -175,12 +158,6 @@ OFD 是中国的电子文件版式标准，广泛用于电子发票、电子证�
 | [ofd-parser-tika](https://github.com/ryecrow/ofd-parser) | Apache-2.0 | ❌ | ✅ | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [fuyue-convert](https://github.com/wmforever/fuyue-convert) | Apache-2.0 | ❌ | ✅ | ⚠️ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ | ⚠️ | ❌ | ⚠️ | ❌ | ❌ |
 
-**推荐**
-
-- **事实标准**：[ofdrw](https://github.com/ofdrw/ofdrw) —— Java 生态首选，能力覆盖最全；`Pdf2Ofd` 打包 OFD 需引入 `zip4j`，其 PDF→OFD 输出为矢量轮廓/位图，不含可提取文本。
-- **文件预览服务**：[kkFileView](https://github.com/kekingcn/kkFileView) —— 支持在线预览多种格式（含发票 OFD）。
-- **Apache Tika 集成**：[ofd-parser-tika](https://github.com/ryecrow/ofd-parser) —— 在 Tika 中做全文检索。
-
 ## C++
 
 - [docwriter](https://github.com/isee15/docwriter) - 仅做 OFD 生成
@@ -209,11 +186,6 @@ OFD 是中国的电子文件版式标准，广泛用于电子发票、电子证�
 | [ofdEditor](https://github.com/mcoder2014/ofdEditor) | MIT | ✅ | ✅ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ✅ | ✅ |
 | [ZipViewer](https://github.com/CryFeiFei/ZipViewer) | MIT | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 
-> **选型提示**
-> - **一体化解决方案**：[XilouReader](https://github.com/Chingliu/XilouReader) —— 预览 + 发票 + 生成 + 签章 + PDF→OFD 全支持。
-> - **Qt 桌面编辑器**：[ofdEditor](https://github.com/mcoder2014/ofdEditor)、[OFDEditor](https://github.com/KikyoShaw/OFDEditor)。
-> - **仅签名**：[docwriter](https://github.com/isee15/docwriter)（作者即 ofdjs 作者，配套 JS 生态）。
-
 ## .NET
 
 - [BootstrapBlazor.OfdReader](https://github.com/BootstrapBlazor/BootstrapBlazor.OfdReader) - 嵌入 Blazor 项目的 OFD 预览控件
@@ -239,11 +211,6 @@ OFD 是中国的电子文件版式标准，广泛用于电子发票、电子证�
 | [BootstrapBlazor.OfdReader](https://github.com/BootstrapBlazor/BootstrapBlazor.OfdReader) | MIT | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [Ofd2Pdf](https://github.com/taurusxin/Ofd2Pdf) | MIT | ❌ | ✅ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [ofd2pdf](https://github.com/lanbo0829/ofd2pdf) | 无 | ❌ | ✅ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
-
-**推荐**
-
-- **能力最全**：[ofdrw.net](https://github.com/whynpc9/ofdrw.net) —— .NET 版 ofdrw，解析 + 多格式导出 + 生成 + PDF→OFD + 修改。
-- **Blazor 组件**：[BootstrapBlazor.OfdReader](https://github.com/BootstrapBlazor/BootstrapBlazor.OfdReader) —— 直接嵌入 Blazor 项目的 OFD 预览控件。
 
 ## JavaScript
 
@@ -283,13 +250,6 @@ OFD 是中国的电子文件版式标准，广泛用于电子发票、电子证�
 | [ofd-to-pdf](https://www.npmjs.com/package/@miconvert/ofd-to-pdf) | Apache-2.0 | ❌ | ✅ | ✅ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [jsOFD](https://github.com/Hufe921/jsOFD) | MIT | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ✅ | ❌ | ❌ | ❌ |
 
-**推荐**
-
-- **浏览器预览首选**：[ofdjs](https://github.com/isee15/ofdjs) —— 生态最完善；`→ HTML` 为 Canvas 渲染（⚠️）。
-- **OFD → PDF（浏览器/Node）**：[ofd-to-pdf](https://www.npmjs.com/package/@miconvert/ofd-to-pdf)（`@miconvert`）—— 支持发票 OFD。
-- **浏览器内 PDF → OFD**：[jsOFD](https://github.com/Hufe921/jsOFD) —— 基于 pdf.js；Node <22 需补 `process.getBuiltinModule`，不转换注解/渐变/图案。
-- **Web 编辑器**：[ofd_editor_frontend](https://github.com/LamplightShadow/ofd_editor_frontend) —— 唯一自带编辑器的 JS 库。
-
 ## Pascal
 
 - [tinyofd](https://github.com/miemiekurisu/tinyofd) - 轻量查看器，支持文本提取
@@ -300,24 +260,41 @@ OFD 是中国的电子文件版式标准，广泛用于电子发票、电子证�
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | [tinyofd](https://github.com/miemiekurisu/tinyofd) | PolyForm-NC | ✅ | ✅ | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 
-## 横向对比速查
+## 选型参考（可能过时）
 
-- **能力最全（≥12 项）**：[go-zc310](https://github.com/zc310/ofd)（Go）、[go-ofdgo](https://github.com/xiaoqidun/ofdgo)（Go）、[ofdrw](https://github.com/ofdrw/ofdrw)（Java）、[XilouReader](https://github.com/Chingliu/XilouReader)（C++）、[ofdrw.net](https://github.com/whynpc9/ofdrw.net)（.NET）
-- **仅 PDF → OFD 导入**：[OFDConverter](https://github.com/wukonggo/OFDConverter)（.NET）、[pdf2ofd](https://github.com/wanglrebe/pdf2ofd)（Python）、[jsOFD](https://github.com/Hufe921/jsOFD)（JS）
-- **自带可视化编辑器**：[go-ofdgo](https://github.com/xiaoqidun/ofdgo)、[OFDEditor](https://github.com/KikyoShaw/OFDEditor)、[ofdEditor](https://github.com/mcoder2014/ofdEditor)、[ofd_editor_frontend](https://github.com/LamplightShadow/ofd_editor_frontend)
-- **电子发票专项**：[ofdrw](https://github.com/ofdrw/ofdrw)、[kkFileView](https://github.com/kekingcn/kkFileView)、[easyofd](https://pypi.org/project/easyofd/)、[ofd-to-pdf](https://www.npmjs.com/package/@miconvert/ofd-to-pdf)、[fapiao-print](https://github.com/erma0/fapiao-print)、[piaopinpin](https://github.com/qq87636108/piaopinpin)
+> 快照日期：**2026-10**。以下为基于 [ofd-benchmark](https://github.com/zc310/ofd-benchmark) 实测与各项目 README 得出的辅助信息，项目更新后可能不再准确，请以仓库最新文档为准。
+
+### 速查
+
+- **能力覆盖 ≥12 项**：[go-zc310](https://github.com/zc310/ofd)（Go）、[go-ofdgo](https://github.com/xiaoqidun/ofdgo)（Go）、[ofdrw](https://github.com/ofdrw/ofdrw)（Java）、[XilouReader](https://github.com/Chingliu/XilouReader)（C++）、[ofdrw.net](https://github.com/whynpc9/ofdrw.net)（.NET）
+- **仅提供 PDF → OFD 导入**：[OFDConverter](https://github.com/wukonggo/OFDConverter)（.NET）、[pdf2ofd](https://github.com/wanglrebe/pdf2ofd)（Python）、[jsOFD](https://github.com/Hufe921/jsOFD)（JS）
+- **附带可视化编辑器**：[go-ofdgo](https://github.com/xiaoqidun/ofdgo)、[OFDEditor](https://github.com/KikyoShaw/OFDEditor)、[ofdEditor](https://github.com/mcoder2014/ofdEditor)、[ofd_editor_frontend](https://github.com/LamplightShadow/ofd_editor_frontend)
+- **电子发票相关**：[ofdrw](https://github.com/ofdrw/ofdrw)、[kkFileView](https://github.com/kekingcn/kkFileView)、[easyofd](https://pypi.org/project/easyofd/)、[ofd-to-pdf](https://www.npmjs.com/package/@miconvert/ofd-to-pdf)、[fapiao-print](https://github.com/erma0/fapiao-print)、[piaopinpin](https://github.com/qq87636108/piaopinpin)
 - **在线文件预览服务**：[kkFileView](https://github.com/kekingcn/kkFileView)、[JIMU-ConvertPreview](https://github.com/zhangzhen1979/JIMU-ConvertPreview)
+- **Blazor / Qt 集成**：[BootstrapBlazor.OfdReader](https://github.com/BootstrapBlazor/BootstrapBlazor.OfdReader)、[ofdEditor](https://github.com/mcoder2014/ofdEditor)
+
+### 已知限制
+
+- **[ofdrw](https://github.com/ofdrw/ofdrw)（Java）**：PDF→OFD 打包需引入 `zip4j`；输出为矢量轮廓/位图，不含可提取文本。
+- **[easyofd-rust](https://github.com/easy-4-rust/easyofd-rust)（Rust）**：PDF→OFD 实测可能输出空页、CID 字体乱码、版面固定，体积/速度优势来自内容丢失。
+- **[rofd](https://github.com/office-rs/rofd)（Rust）**：→ 图片仅部分支持。
+- **[easyofd](https://pypi.org/project/easyofd/)（Python）**：→ PDF 基于图片渲染；实测部分文件会崩溃。
+- **[ofd2pdf](https://github.com/jsyzdej/ofd2pdf)（Python）**：基于图片渲染，输出无可提取文本。
+- **[ofdjs](https://github.com/isee15/ofdjs)（JS）**：→ HTML 为 Canvas 渲染，不生成 HTML DOM/SVG。
+- **[jsOFD](https://github.com/Hufe921/jsOFD)（JS）**：Node <22 需补 `process.getBuiltinModule`；不转换注解/渐变/图案。
 
 ## 贡献
 
 欢迎补充与修正。提交 PR 时请：
 
-1. 把条目加入对应语言表格，按已有维度逐项核对（✅ / ⚠️ / ❌）。
+1. 把条目加入对应语言列表与能力矩阵，按已有维度逐项核对（✅ / ⚠️ / ❌）。
 2. 注明**仓库地址**与**许可证**；许可证未明确写「无」。
-3. 部分支持请用 ⚠️，并在表格下方一句话说明限制。
+3. 部分支持请用 ⚠️，并在条目描述中说明限制。
 4. 若来自 [ofd-benchmark](https://github.com/zc310/ofd-benchmark) 的基准测试结论（如 PDF→OFD 质量），一并附上说明。
+5. 发现能力标注与项目现状不符，欢迎直接提 PR 修正，快照内容也随之更新。
 
 ## 说明
 
 - 能力标注基于各项目 README、源码与基准测试结果，可能随版本变化，仅供选型参考。
 - 无许可证的项目默认保留所有权利，商业使用需谨慎。
+- 清单内容采用 [CC0-1.0](https://creativecommons.org/publicdomain/zero/1.0/)，代码仓库许可证见 [LICENSE](LICENSE)。
