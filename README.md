@@ -79,8 +79,11 @@ OFD 是中国的电子文件版式标准，广泛用于电子发票、电子证�
 ## Rust
 
 - [easyofd-rust](https://github.com/easy-4-rust/easyofd-rust) - 文档最完整的 Rust OFD 库，适合生成、签章、PDF/MD 导出
+- [easy_print](https://github.com/qzue/easy_print) - 发票打印工具，自研 OFD→PDF（矢量渲染 + 印章烘焙）
 - [fapiao-print](https://github.com/erma0/fapiao-print) - 发票 OFD 预览与打印，支持 PDF/SVG 导出
 - [jian-yue](https://github.com/lapin2024/jian-yue) - Rust 阅读器，预览 + 编辑器 + 文本提取，PDF→OFD/签章/修改为部分支持
+- [linuxdeepin-rofd](https://github.com/linuxdeepin/rofd) - 解析 + 渲染 + 图片导出（LGPL-2.1）
+- [ofd-rs](https://github.com/YeaLooooo/ofd-rs) - 图片转 OFD 的生成器
 - [ofd-utility](https://github.com/ofd-utility/ofd-utility) - 解析、图片导出与验签
 - [ofd-viewer](https://github.com/shaoyi1998/ofd-viewer) - 查看器，支持 PDF/TXT 导出
 - [ofdmanager](https://github.com/feuvan/ofdmanager) - 渲染与图片导出
@@ -101,6 +104,9 @@ OFD 是中国的电子文件版式标准，广泛用于电子发票、电子证�
 | [ofd-viewer](https://github.com/shaoyi1998/ofd-viewer) | MIT | ✅ | ✅ | ❌ | ❌ | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [fapiao-print](https://github.com/erma0/fapiao-print) | MIT | ✅ | ✅ | ✅ | ⚠️ | ✅ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [jian-yue](https://github.com/lapin2024/jian-yue) | MIT | ✅ | ✅ | ⚠️ | ✅ | ⚠️ | ✅ | ❌ | ❌ | ❌ | ⚠️ | ❌ | ⚠️ | ⚠️ | ✅ |
+| [linuxdeepin-rofd](https://github.com/linuxdeepin/rofd) | LGPL-2.1 | ✅ | ✅ | ⚠️ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [easy_print](https://github.com/qzue/easy_print) | MIT | ✅ | ✅ | ✅ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [ofd-rs](https://github.com/YeaLooooo/ofd-rs) | Apache-2.0 | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ |
 
 ## Python
 
