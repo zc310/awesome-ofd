@@ -80,6 +80,7 @@ OFD 是中国的电子文件版式标准，广泛用于电子发票、电子证�
 
 - [easyofd-rust](https://github.com/easy-4-rust/easyofd-rust) - 文档最完整的 Rust OFD 库，适合生成、签章、PDF/MD 导出
 - [fapiao-print](https://github.com/erma0/fapiao-print) - 发票 OFD 预览与打印，支持 PDF/SVG 导出
+- [jian-yue](https://github.com/lapin2024/jian-yue) - Rust 阅读器，预览 + 编辑器 + 文本提取，PDF→OFD/签章/修改为部分支持
 - [ofd-utility](https://github.com/ofd-utility/ofd-utility) - 解析、图片导出与验签
 - [ofd-viewer](https://github.com/shaoyi1998/ofd-viewer) - 查看器，支持 PDF/TXT 导出
 - [ofdmanager](https://github.com/feuvan/ofdmanager) - 渲染与图片导出
@@ -99,6 +100,7 @@ OFD 是中国的电子文件版式标准，广泛用于电子发票、电子证�
 | [rofd](https://github.com/office-rs/rofd) | Apache-2.0 | ✅ | ✅ | ❌ | ⚠️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ |
 | [ofd-viewer](https://github.com/shaoyi1998/ofd-viewer) | MIT | ✅ | ✅ | ❌ | ❌ | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [fapiao-print](https://github.com/erma0/fapiao-print) | MIT | ✅ | ✅ | ✅ | ⚠️ | ✅ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [jian-yue](https://github.com/lapin2024/jian-yue) | MIT | ✅ | ✅ | ⚠️ | ✅ | ⚠️ | ✅ | ❌ | ❌ | ❌ | ⚠️ | ❌ | ⚠️ | ⚠️ | ✅ |
 
 ## Python
 
@@ -220,6 +222,7 @@ OFD 是中国的电子文件版式标准，广泛用于电子发票、电子证�
 - [jsOFD](https://github.com/Hufe921/jsOFD) - 浏览器内 PDF→OFD（基于 pdf.js），支持生成
 - [liteofd](https://github.com/SignitDoc/liteofd) - 预览 + 验签 + HTML 输出
 - [ofd-online](https://github.com/betgo/ofd-online) - 在线预览，支持 SVG 导出
+- [ofd-reader](https://github.com/Maple-pro/ofd-reader) - TypeScript 浏览器阅读器，预览 + 图片导出，HTML 为 Canvas 渲染
 - [ofd-to-pdf](https://www.npmjs.com/package/@miconvert/ofd-to-pdf) - OFD→PDF（浏览器/Node），支持发票
 - [ofd.js](https://github.com/DLTech21/ofd.js) - 预览 + HTML 输出，部分验签支持
 - [ofd_editor_frontend](https://github.com/LamplightShadow/ofd_editor_frontend) - 唯一自带编辑器的 JS 库
@@ -245,6 +248,7 @@ OFD 是中国的电子文件版式标准，广泛用于电子发票、电子证�
 | [bestofdview](https://github.com/besthqs/bestofdview) | 无 | ✅ | ✅ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ | ⚠️ | ❌ | ❌ | ✅ | ❌ | ❌ |
 | [imageConversion](https://github.com/Gary-zy/imageConversion) | MIT | ✅ | ✅ | ❌ | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ⚠️ | ❌ | ❌ |
 | [jit-viewer-sdk](https://github.com/Drexr9558/jit-viewer-sdk) | Apache-2.0 | ✅ | ✅ | ⚠️ | ✅ | ❌ | ✅ | ❌ | ❌ | ⚠️ | ❌ | ❌ | ⚠️ | ❌ | ❌ |
+| [ofd-reader](https://github.com/Maple-pro/ofd-reader) | 无 | ✅ | ✅ | ⚠️ | ✅ | ❌ | ❌ | ❌ | ❌ | ⚠️ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [piaopinpin](https://github.com/qq87636108/piaopinpin) | MIT | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | ⚠️ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [ofd_editor_frontend](https://github.com/LamplightShadow/ofd_editor_frontend) | 无 | ✅ | ✅ | ❌ | ✅ | ✅ | ❌ | ❌ | ❌ | ⚠️ | ❌ | ✅ | ✅ | ✅ | ✅ |
 | [ofd-to-pdf](https://www.npmjs.com/package/@miconvert/ofd-to-pdf) | Apache-2.0 | ❌ | ✅ | ✅ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
