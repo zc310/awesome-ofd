@@ -119,6 +119,7 @@ OFD 是中国的电子文件版式标准，广泛用于电子发票、电子证�
 - [OFDtoPDF](https://github.com/njuzzy1979/OFDtoPDF) - 轻量 OFD→PDF
 - [OfficeMaster](https://github.com/Chingliu/OfficeMaster_document_convert_system) - 办公文档转换系统，支持生成与 PDF→OFD
 - [pdf2ofd](https://github.com/wanglrebe/pdf2ofd) - 专注 PDF→OFD 导入
+- [swingmonkey-ofd2pdf](https://github.com/swingmonkey/ofd2pdf) - 发票 OFD→PDF 转换，支持可插拔后端
 
 **能力矩阵**
 
@@ -131,6 +132,7 @@ OFD 是中国的电子文件版式标准，广泛用于电子发票、电子证�
 | [ofd2pdf](https://github.com/jsyzdej/ofd2pdf) | 无 | ❌ | ✅ | ❌ | ✅ | ⚠️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [OFDtoPDF](https://github.com/njuzzy1979/OFDtoPDF) | 无 | ❌ | ✅ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ⚠️ | ❌ | ❌ |
 | [pdf2ofd](https://github.com/wanglrebe/pdf2ofd) | MIT | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ |
+| [swingmonkey-ofd2pdf](https://github.com/swingmonkey/ofd2pdf) | MIT | ❌ | ✅ | ⚠️ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [ofd-parser](https://github.com/jyh2012/ofd-parser) | 无 | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [OfficeMaster](https://github.com/Chingliu/OfficeMaster_document_convert_system) | MIT | ❌ | ✅ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ | ✅ | ✅ | ❌ | ❌ | ❌ |
 
@@ -226,6 +228,8 @@ OFD 是中国的电子文件版式标准，广泛用于电子发票、电子证�
 - [imageConversion](https://github.com/Gary-zy/imageConversion) - OFD/图片/PDF 转换，部分验签支持
 - [jit-viewer-sdk](https://github.com/Drexr9558/jit-viewer-sdk) - 商业级查看 SDK
 - [jsOFD](https://github.com/Hufe921/jsOFD) - 浏览器内 PDF→OFD（基于 pdf.js），支持生成
+- [local-doc-viewer](https://github.com/LocalDoc-Viewer/local-doc-viewer) - Tauri 桌面阅读器（AGPL-3.0）
+- [ofd-lzy](https://github.com/Yusuf-dz/ofd-lzy) - 浏览器查看器，支持验签、发票提取与批注（BUSL-1.1）
 - [liteofd](https://github.com/SignitDoc/liteofd) - 预览 + 验签 + HTML 输出
 - [ofd-online](https://github.com/betgo/ofd-online) - 在线预览，支持 SVG 导出
 - [ofd-reader](https://github.com/Maple-pro/ofd-reader) - TypeScript 浏览器阅读器，预览 + 图片导出，HTML 为 Canvas 渲染
@@ -259,6 +263,8 @@ OFD 是中国的电子文件版式标准，广泛用于电子发票、电子证�
 | [ofd_editor_frontend](https://github.com/LamplightShadow/ofd_editor_frontend) | 无 | ✅ | ✅ | ❌ | ✅ | ✅ | ❌ | ❌ | ❌ | ⚠️ | ❌ | ✅ | ✅ | ✅ | ✅ |
 | [ofd-to-pdf](https://www.npmjs.com/package/@miconvert/ofd-to-pdf) | Apache-2.0 | ❌ | ✅ | ✅ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [jsOFD](https://github.com/Hufe921/jsOFD) | MIT | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ✅ | ❌ | ❌ | ❌ |
+| [ofd-lzy](https://github.com/Yusuf-dz/ofd-lzy) | BUSL-1.1 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ⚠️ | ❌ | ❌ | ✅ | ❌ | ✅ |
+| [local-doc-viewer](https://github.com/LocalDoc-Viewer/local-doc-viewer) | AGPL-3.0 | ✅ | ✅ | ⚠️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 
 ## Pascal
 
