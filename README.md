@@ -78,6 +78,7 @@ OFD 是中国的电子文件版式标准，广泛用于电子发票、电子证�
 
 ## Rust
 
+- [OFD Reader](http://123.57.45.115/) - 高速、流畅、精准、深入符合国家标准 GB/T 33190 的 OFD 版式文档阅读器
 - [easyofd-rust](https://github.com/easy-4-rust/easyofd-rust) - 文档最完整的 Rust OFD 库，适合生成、签章、PDF/MD 导出
 - [easy_print](https://github.com/qzue/easy_print) - 发票打印工具，自研 OFD→PDF（矢量渲染 + 印章烘焙）
 - [fapiao-print](https://github.com/erma0/fapiao-print) - 发票 OFD 预览与打印，支持 PDF/SVG 导出
