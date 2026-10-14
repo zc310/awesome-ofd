@@ -63,6 +63,7 @@ OFD 是中国的电子文件版式标准，广泛用于电子发票、电子证�
 - [go-ofdgo](https://github.com/xiaoqidun/ofdgo) - 全能库，唯一自带可视化编辑器，PDF→OFD 实测成功率最高
 - [leijacob-ofd](https://gitee.com/leijacob/ofd) - 支持解析、PDF→OFD、生成、签章与修改
 - [ofd-go](https://github.com/itlabers/ofd-go) - 轻量解析 + 签章
+- [pdf-to-ofd](https://github.com/huanxiang666/pdf-to-ofd) - 图片型 PDF→OFD 转换（对常见 PDF 常失败）
 - [signer-tools](https://gitee.com/leijacob/signer-tools) - OFD 签名/盖章工具集
 
 **能力矩阵**
@@ -72,6 +73,7 @@ OFD 是中国的电子文件版式标准，广泛用于电子发票、电子证�
 | [go-zc310](https://github.com/zc310/ofd) | Apache-2.0 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ |
 | [go-ofdgo](https://github.com/xiaoqidun/ofdgo) | Apache-2.0 | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | [ofd-go](https://github.com/itlabers/ofd-go) | Apache-2.0 | ❌ | ✅ | ⚠️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ |
+| [pdf-to-ofd](https://github.com/huanxiang666/pdf-to-ofd) | MIT | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ⚠️ | ❌ | ❌ | ❌ | ❌ |
 | [go-ofd](https://github.com/ppxz2014/go-ofd) | Apache-2.0 | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ |
 | [leijacob-ofd](https://gitee.com/leijacob/ofd) | 无 | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ✅ | ✅ | ✅ | ❌ |
 | [signer-tools](https://gitee.com/leijacob/signer-tools) | 无 | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ |
@@ -91,6 +93,7 @@ OFD 是中国的电子文件版式标准，广泛用于电子发票、电子证�
 - [ofdsdk](https://github.com/KaiserY/ofdsdk) - 基础解析 SDK
 - [rofd](https://github.com/office-rs/rofd) - 渲染与文档修改
 - [rs_ofd](https://github.com/geniusnut/rs_ofd) - 解析与图片导出
+- [SteleOFD](https://github.com/emfox/SteleOFD) - 解析 / 验签 / 修改引擎，项目早期阶段
 
 **能力矩阵**
 
@@ -99,6 +102,7 @@ OFD 是中国的电子文件版式标准，广泛用于电子发票、电子证�
 | [easyofd-rust](https://github.com/easy-4-rust/easyofd-rust) | Apache-2.0 | ❌ | ✅ | ⚠️ | ✅ | ✅ | ❌ | ❌ | ✅ | ❌ | ⚠️ | ✅ | ✅ | ✅ | ❌ |
 | [ofdmanager](https://github.com/feuvan/ofdmanager) | MIT | ✅ | ✅ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [rs_ofd](https://github.com/geniusnut/rs_ofd) | MIT | ❌ | ✅ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [SteleOFD](https://github.com/emfox/SteleOFD) | Apache-2.0 | ❌ | ✅ | ⚠️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ✅ | ❌ |
 | [ofd-utility](https://github.com/ofd-utility/ofd-utility) | MIT | ❌ | ✅ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ |
 | [ofdsdk](https://github.com/KaiserY/ofdsdk) | Apache-2.0 | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [rofd](https://github.com/office-rs/rofd) | Apache-2.0 | ✅ | ✅ | ❌ | ⚠️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ |
