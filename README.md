@@ -125,6 +125,7 @@ OFD 是中国的电子文件版式标准，广泛用于电子发票、电子证�
 - [OfficeMaster](https://github.com/Chingliu/OfficeMaster_document_convert_system) - 办公文档转换系统，支持生成与 PDF→OFD
 - [pdf2ofd](https://github.com/wanglrebe/pdf2ofd) - 专注 PDF→OFD 导入
 - [swingmonkey-ofd2pdf](https://github.com/swingmonkey/ofd2pdf) - 发票 OFD→PDF 转换，支持可插拔后端
+- [win-doc-converter](https://github.com/yefd/win-doc-converter) - 数科/WPS DLL 封装的 OFD→PDF（Windows）
 
 **能力矩阵**
 
@@ -138,6 +139,7 @@ OFD 是中国的电子文件版式标准，广泛用于电子发票、电子证�
 | [OFDtoPDF](https://github.com/njuzzy1979/OFDtoPDF) | 无 | ❌ | ✅ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ⚠️ | ❌ | ❌ |
 | [pdf2ofd](https://github.com/wanglrebe/pdf2ofd) | MIT | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ |
 | [swingmonkey-ofd2pdf](https://github.com/swingmonkey/ofd2pdf) | MIT | ❌ | ✅ | ⚠️ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [win-doc-converter](https://github.com/yefd/win-doc-converter) | 无 | ❌ | ✅ | ⚠️ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [ofd-parser](https://github.com/jyh2012/ofd-parser) | 无 | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [OfficeMaster](https://github.com/Chingliu/OfficeMaster_document_convert_system) | MIT | ❌ | ✅ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ | ✅ | ✅ | ❌ | ❌ | ❌ |
 
@@ -182,6 +184,7 @@ OFD 是中国的电子文件版式标准，广泛用于电子发票、电子证�
 - [ofdpdfsigner](https://github.com/fanzizheng/ofdpdfsigner) - 签名验签，支持 PDF/SVG 导出与 PDF→OFD
 - [ofdReader](https://github.com/Micats/ofdReader) - 渲染与图片导出，部分签章支持
 - [OfdiumEx](https://github.com/roy19831015/OfdiumEx) - 渲染与图片导出
+- [papers-ofd](https://github.com/YangtseSu/papers-ofd) - GNOME Papers 的 OFD 后端（rofd C ABI），打印即 PDF
 - [XilouReader](https://github.com/Chingliu/XilouReader) - 一体化方案：预览 + 发票 + 生成 + 签章 + PDF→OFD
 - [xilou_core](https://github.com/Chingliu/xilou_core) - ofdReader 系核心库，渲染与图片导出
 - [ZipViewer](https://github.com/CryFeiFei/ZipViewer) - 轻量查看器
@@ -200,6 +203,7 @@ OFD 是中国的电子文件版式标准，广泛用于电子发票、电子证�
 | [OfdiumEx](https://github.com/roy19831015/OfdiumEx) | Apache-2.0 | ✅ | ✅ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [ofdEditor](https://github.com/mcoder2014/ofdEditor) | MIT | ✅ | ✅ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ✅ | ✅ |
 | [ZipViewer](https://github.com/CryFeiFei/ZipViewer) | MIT | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [papers-ofd](https://github.com/YangtseSu/papers-ofd) | GPL-2.0 | ✅ | ✅ | ⚠️ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 
 ## .NET
 
@@ -240,6 +244,7 @@ OFD 是中国的电子文件版式标准，广泛用于电子发票、电子证�
 - [ofd-reader](https://github.com/Maple-pro/ofd-reader) - TypeScript 浏览器阅读器，预览 + 图片导出，HTML 为 Canvas 渲染
 - [ofd-to-pdf](https://www.npmjs.com/package/@miconvert/ofd-to-pdf) - OFD→PDF（浏览器/Node），支持发票
 - [ofd.js](https://github.com/DLTech21/ofd.js) - 预览 + HTML 输出，部分验签支持
+- [ofd.js-js-nuxt](https://github.com/astonmario/ofd.js-js-nuxt) - ofd.js 的服务端渲染版（Nuxt），部分验签支持
 - [ofd_editor_frontend](https://github.com/LamplightShadow/ofd_editor_frontend) - 唯一自带编辑器的 JS 库
 - [ofdjs](https://github.com/isee15/ofdjs) - 浏览器预览首选，生态最完善
 - [ofdjs-viewer](https://github.com/Atw-Lee/ofdjs-viewer) - ofdjs 的查看器实现，支持文本提取
@@ -270,6 +275,7 @@ OFD 是中国的电子文件版式标准，广泛用于电子发票、电子证�
 | [jsOFD](https://github.com/Hufe921/jsOFD) | MIT | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ✅ | ❌ | ❌ | ❌ |
 | [ofd-lzy](https://github.com/Yusuf-dz/ofd-lzy) | BUSL-1.1 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ⚠️ | ❌ | ❌ | ✅ | ❌ | ✅ |
 | [local-doc-viewer](https://github.com/LocalDoc-Viewer/local-doc-viewer) | AGPL-3.0 | ✅ | ✅ | ⚠️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [ofd.js-js-nuxt](https://github.com/astonmario/ofd.js-js-nuxt) | Apache-2.0 | ✅ | ✅ | ⚠️ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ⚠️ | ❌ | ❌ |
 
 ## Pascal
 
