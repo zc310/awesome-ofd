@@ -71,7 +71,7 @@ OFD 是中国的电子文件版式标准，广泛用于电子发票、电子证�
 | 库 | 许可证 | 预览 | 解析 | 发票 | → 图片 | → PDF | → TXT | → SVG | → Md | → HTML | PDF → OFD | 生成 | 签章 | 修改 | 编辑器 |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | [go-zc310](https://github.com/zc310/ofd) | Apache-2.0 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ |
-| [go-ofdgo](https://github.com/xiaoqidun/ofdgo) | Apache-2.0 | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| [go-ofdgo](https://github.com/xiaoqidun/ofdgo) | Apache-2.0 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | [ofd-go](https://github.com/itlabers/ofd-go) | Apache-2.0 | ❌ | ✅ | ⚠️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ |
 | [pdf-to-ofd](https://github.com/huanxiang666/pdf-to-ofd) | MIT | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ⚠️ | ❌ | ❌ | ❌ | ❌ |
 | [go-ofd](https://github.com/ppxz2014/go-ofd) | Apache-2.0 | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ |
@@ -249,6 +249,7 @@ OFD 是中国的电子文件版式标准，广泛用于电子发票、电子证�
 - [ofdjs](https://github.com/isee15/ofdjs) - 浏览器预览首选，生态最完善
 - [ofdjs-viewer](https://github.com/Atw-Lee/ofdjs-viewer) - ofdjs 的查看器实现，支持文本提取
 - [ofdviewer](https://github.com/xxss0903/ofdviewer) - 纯前端查看器
+- [ofdview](https://github.com/moxudocs/ofdview) - USDOC WASM 浏览器阅读器，支持验签与发票预览
 - [OFDView](https://github.com/guinanlin/OFDView) - 预览 + HTML 输出
 - [piaopinpin](https://github.com/qq87636108/piaopinpin) - 发票解析与预览
 - [webofd](https://github.com/zsc347/webofd) - 在线预览
@@ -276,6 +277,7 @@ OFD 是中国的电子文件版式标准，广泛用于电子发票、电子证�
 | [ofd-lzy](https://github.com/Yusuf-dz/ofd-lzy) | BUSL-1.1 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ⚠️ | ❌ | ❌ | ✅ | ❌ | ✅ |
 | [local-doc-viewer](https://github.com/LocalDoc-Viewer/local-doc-viewer) | AGPL-3.0 | ✅ | ✅ | ⚠️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [ofd.js-js-nuxt](https://github.com/astonmario/ofd.js-js-nuxt) | Apache-2.0 | ✅ | ✅ | ⚠️ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ⚠️ | ❌ | ❌ |
+| [ofdview](https://github.com/moxudocs/ofdview) | Apache-2.0 | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ⚠️ | ❌ | ❌ | ✅ | ❌ | ❌ |
 
 ## Pascal
 
