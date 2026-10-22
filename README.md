@@ -86,6 +86,7 @@ OFD 是中国的电子文件版式标准，广泛用于电子发票、电子证�
 - [fapiao-print](https://github.com/erma0/fapiao-print) - 发票 OFD 预览与打印，支持 PDF/SVG 导出
 - [jian-yue](https://github.com/lapin2024/jian-yue) - Rust 阅读器，预览 + 编辑器 + 文本提取，PDF→OFD/签章/修改为部分支持
 - [linuxdeepin-rofd](https://github.com/linuxdeepin/rofd) - 解析 + 渲染 + 图片导出（LGPL-2.1）
+- [ofdbox-rust](https://github.com/ofdbox/ofdbox) - Rust 工具箱，支持 OFD↔PDF/PNG 转换与 GM/T 0099 签章验签
 - [ofd-rs](https://github.com/YeaLooooo/ofd-rs) - 图片转 OFD 的生成器
 - [ofd-utility](https://github.com/ofd-utility/ofd-utility) - 解析、图片导出与验签
 - [ofd-viewer](https://github.com/shaoyi1998/ofd-viewer) - 查看器，支持 PDF/TXT 导出
@@ -102,7 +103,7 @@ OFD 是中国的电子文件版式标准，广泛用于电子发票、电子证�
 | [easyofd-rust](https://github.com/easy-4-rust/easyofd-rust) | Apache-2.0 | ❌ | ✅ | ⚠️ | ✅ | ✅ | ❌ | ❌ | ✅ | ❌ | ⚠️ | ✅ | ✅ | ✅ | ❌ |
 | [ofdmanager](https://github.com/feuvan/ofdmanager) | MIT | ✅ | ✅ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [rs_ofd](https://github.com/geniusnut/rs_ofd) | MIT | ❌ | ✅ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
-| [SteleOFD](https://github.com/emfox/SteleOFD) | Apache-2.0 | ❌ | ✅ | ⚠️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ✅ | ❌ |
+| [SteleOFD](https://github.com/emfox/SteleOFD) | Apache-2.0 | ✅ | ✅ | ⚠️ | ✅ | ✅ | ❌ | ✅ | ❌ | ⚠️ | ❌ | ❌ | ✅ | ✅ | ❌ |
 | [ofd-utility](https://github.com/ofd-utility/ofd-utility) | MIT | ❌ | ✅ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ |
 | [ofdsdk](https://github.com/KaiserY/ofdsdk) | Apache-2.0 | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [rofd](https://github.com/office-rs/rofd) | Apache-2.0 | ✅ | ✅ | ❌ | ⚠️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ |
@@ -112,6 +113,7 @@ OFD 是中国的电子文件版式标准，广泛用于电子发票、电子证�
 | [linuxdeepin-rofd](https://github.com/linuxdeepin/rofd) | LGPL-2.1 | ✅ | ✅ | ⚠️ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [easy_print](https://github.com/qzue/easy_print) | MIT | ✅ | ✅ | ✅ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [ofd-rs](https://github.com/YeaLooooo/ofd-rs) | Apache-2.0 | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ |
+| [ofdbox-rust](https://github.com/ofdbox/ofdbox) | Apache-2.0 | ❌ | ✅ | ❌ | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | ⚠️ | ❌ | ✅ | ✅ | ❌ |
 
 ## Python
 
@@ -125,6 +127,7 @@ OFD 是中国的电子文件版式标准，广泛用于电子发票、电子证�
 - [OfficeMaster](https://github.com/Chingliu/OfficeMaster_document_convert_system) - 办公文档转换系统，支持生成与 PDF→OFD
 - [pdf2ofd](https://github.com/wanglrebe/pdf2ofd) - 专注 PDF→OFD 导入
 - [swingmonkey-ofd2pdf](https://github.com/swingmonkey/ofd2pdf) - 发票 OFD→PDF 转换，支持可插拔后端
+- [ce-conversion-engine](https://github.com/ThePandaQ/ce-conversion-engine) - 文档转换引擎，支持 OFD/PDF 转换、文本提取与生成（AGPL-3.0）
 - [win-doc-converter](https://github.com/yefd/win-doc-converter) - 数科/WPS DLL 封装的 OFD→PDF（Windows）
 
 **能力矩阵**
@@ -139,6 +142,7 @@ OFD 是中国的电子文件版式标准，广泛用于电子发票、电子证�
 | [OFDtoPDF](https://github.com/njuzzy1979/OFDtoPDF) | 无 | ❌ | ✅ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ⚠️ | ❌ | ❌ |
 | [pdf2ofd](https://github.com/wanglrebe/pdf2ofd) | MIT | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ |
 | [swingmonkey-ofd2pdf](https://github.com/swingmonkey/ofd2pdf) | MIT | ❌ | ✅ | ⚠️ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [ce-conversion-engine](https://github.com/ThePandaQ/ce-conversion-engine) | AGPL-3.0 | ❌ | ✅ | ⚠️ | ✅ | ⚠️ | ✅ | ❌ | ❌ | ❌ | ✅ | ✅ | ❌ | ❌ | ❌ |
 | [win-doc-converter](https://github.com/yefd/win-doc-converter) | 无 | ❌ | ✅ | ⚠️ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [ofd-parser](https://github.com/jyh2012/ofd-parser) | 无 | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [OfficeMaster](https://github.com/Chingliu/OfficeMaster_document_convert_system) | MIT | ❌ | ✅ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ | ✅ | ✅ | ❌ | ❌ | ❌ |
@@ -221,7 +225,7 @@ OFD 是中国的电子文件版式标准，广泛用于电子发票、电子证�
 
 | 库 | 许可证 | 预览 | 解析 | 发票 | → 图片 | → PDF | → TXT | → SVG | → Md | → HTML | PDF → OFD | 生成 | 签章 | 修改 | 编辑器 |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| [ofdrw.net](https://github.com/whynpc9/ofdrw.net) | MIT | ❌ | ✅ | ❌ | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ✅ | ✅ | ⚠️ | ✅ | ❌ |
+| [ofdrw.net](https://github.com/whynpc9/ofdrw.net) | MIT | ❌ | ✅ | ❌ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ⚠️ | ✅ | ❌ |
 | [XiaoFeng.Ofd](https://github.com/zhuovi/XiaoFeng.Ofd) | MIT | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ✅ | ❌ | ❌ |
 | [OfdViewer](https://github.com/LvYueMing/OfdViewer) | MIT | ✅ | ✅ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ⚠️ | ❌ | ❌ |
 | [ofdrw-net](https://github.com/lllooollpp/ofdrw-net) | 无 | ❌ | ✅ | ❌ | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | ✅ | ✅ | ✅ | ❌ | ❌ |
@@ -249,6 +253,7 @@ OFD 是中国的电子文件版式标准，广泛用于电子发票、电子证�
 - [ofdjs](https://github.com/isee15/ofdjs) - 浏览器预览首选，生态最完善
 - [ofdjs-viewer](https://github.com/Atw-Lee/ofdjs-viewer) - ofdjs 的查看器实现，支持文本提取
 - [ofdviewer](https://github.com/xxss0903/ofdviewer) - 纯前端查看器
+- [file-viewer](https://github.com/flyfish-dev/file-viewer) - 多格式浏览器预览，支持 OFD/HTML 输出
 - [ofdview](https://github.com/moxudocs/ofdview) - USDOC WASM 浏览器阅读器，支持验签与发票预览
 - [OFDView](https://github.com/guinanlin/OFDView) - 预览 + HTML 输出
 - [piaopinpin](https://github.com/qq87636108/piaopinpin) - 发票解析与预览
@@ -277,6 +282,7 @@ OFD 是中国的电子文件版式标准，广泛用于电子发票、电子证�
 | [ofd-lzy](https://github.com/Yusuf-dz/ofd-lzy) | BUSL-1.1 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ⚠️ | ❌ | ❌ | ✅ | ❌ | ✅ |
 | [local-doc-viewer](https://github.com/LocalDoc-Viewer/local-doc-viewer) | AGPL-3.0 | ✅ | ✅ | ⚠️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [ofd.js-js-nuxt](https://github.com/astonmario/ofd.js-js-nuxt) | Apache-2.0 | ✅ | ✅ | ⚠️ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ⚠️ | ❌ | ❌ |
+| [file-viewer](https://github.com/flyfish-dev/file-viewer) | Apache-2.0 | ✅ | ✅ | ⚠️ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ⚠️ | ❌ | ❌ |
 | [ofdview](https://github.com/moxudocs/ofdview) | Apache-2.0 | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ⚠️ | ❌ | ❌ | ✅ | ❌ | ❌ |
 
 ## Pascal
