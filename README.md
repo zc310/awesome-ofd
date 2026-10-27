@@ -133,6 +133,7 @@ OFD 是中国的电子文件版式标准，广泛用于电子发票、电子证�
 - [OfficeMaster](https://github.com/Chingliu/OfficeMaster_document_convert_system) - 办公文档转换系统，支持生成与 PDF→OFD
 - [pdf2ofd](https://github.com/wanglrebe/pdf2ofd) - 专注 PDF→OFD 导入
 - [swingmonkey-ofd2pdf](https://github.com/swingmonkey/ofd2pdf) - 发票 OFD→PDF 转换，支持可插拔后端
+- [ofdkit](https://github.com/Edgar-311/ofdkit) - Python 标准库发票工具，支持文本提取、发票字段 JSON 与批量 CSV 查重
 - [ce-conversion-engine](https://github.com/ThePandaQ/ce-conversion-engine) - 文档转换引擎，支持 OFD/PDF 转换、文本提取与生成（AGPL-3.0）
 - [ofd-to-pdf (campfire)](https://github.com/campfire-code/ofd-to-pdf) - Python 发票 OFD→PDF 转换
 - [win-doc-converter](https://github.com/yefd/win-doc-converter) - 数科/WPS DLL 封装的 OFD→PDF（Windows）
@@ -153,6 +154,7 @@ OFD 是中国的电子文件版式标准，广泛用于电子发票、电子证�
 |          [swingmonkey-ofd2pdf](https://github.com/swingmonkey/ofd2pdf)           |    MIT     |  ❌  |  ✅  |  ⚠️  |   ❌   |  ✅   |  ❌   |  ❌   |  ❌  |   ❌   |    ❌     |  ❌  |  ❌  |    ❌    |  ❌  |  ❌  |  ❌  |  ❌  |  ❌  |   ❌   |
 |          [win-doc-converter](https://github.com/yefd/win-doc-converter)          |     无     |  ❌  |  ✅  |  ⚠️  |   ❌   |  ✅   |  ❌   |  ❌   |  ❌  |   ❌   |    ❌     |  ❌  |  ❌  |    ❌    |  ❌  |  ❌  |  ❌  |  ❌  |  ❌  |   ❌   |
 |    [ce-conversion-engine](https://github.com/ThePandaQ/ce-conversion-engine)     |  AGPL-3.0  |  ❌  |  ✅  |  ⚠️  |   ✅   |  ⚠️   |  ✅   |  ❌   |  ❌  |   ❌   |    ✅     |  ✅  |  ❌  |    ❌    |  ❌  |  ❌  |  ❌  |  ❌  |  ❌  |   ❌   |
+|                  [ofdkit](https://github.com/Edgar-311/ofdkit)                   | Apache-2.0 |  ❌  |  ✅  |  ✅  |   ❌   |  ❌   |  ✅   |  ❌   |  ❌  |   ❌   |    ❌     |  ❌  |  ❌  |    ❌    |  ❌  |  ❌  |  ❌  |  ❌  |  ❌  |   ❌   |
 
 ## Java
 
@@ -165,6 +167,7 @@ OFD 是中国的电子文件版式标准，广泛用于电子发票、电子证�
 - [ofd-parser-tika](https://github.com/ryecrow/ofd-parser) - Apache Tika 解析插件，用于全文检索
 - [ofd-server](https://github.com/maczh/ofd-server) - OFD 处理服务（PDF→OFD、生成、签章、修改）
 - [ofdToPdf](https://github.com/thebigboy/ofdToPdf) - OFD→PDF
+- [DocPaw-OFDH](https://github.com/bushizhuan/DocPaw-OFDH) - 医疗 OFD-H 生成与校验，支持 PDF→OFD、SM2 签章封装和元数据写入
 - [ofdbox](https://gitee.com/bookhhu/ofdbox) - 解析与图片导出
 - [ofdbox-viewer](https://github.com/jiayao-zhang/ofdbox-viewer) - 浏览器端 OFD 预览
 - [ofdrw](https://github.com/ofdrw/ofdrw) - Java 生态事实标准，能力覆盖最全
@@ -185,6 +188,7 @@ OFD 是中国的电子文件版式标准，广泛用于电子发票、电子证�
 |              [ofd-server](https://github.com/maczh/ofd-server)              |     无     |  ❌  |  ❌  |  ❌  |   ❌   |  ❌   |  ❌   |  ❌   |  ❌  |   ❌   |    ✅     |  ✅  |  ✅  |    ❌    |  ❌  |  ❌  |  ❌  |  ❌  |  ✅  |   ❌   |
 |          [ofd-parser-tika](https://github.com/ryecrow/ofd-parser)           | Apache-2.0 |  ❌  |  ✅  |  ❌  |   ❌   |  ❌   |  ✅   |  ❌   |  ❌  |   ❌   |    ❌     |  ❌  |  ❌  |    ❌    |  ❌  |  ❌  |  ❌  |  ❌  |  ❌  |   ❌   |
 |         [fuyue-convert](https://github.com/wmforever/fuyue-convert)         | Apache-2.0 |  ❌  |  ✅  |  ⚠️  |   ✅   |  ✅   |  ✅   |  ❌   |  ❌  |   ❌   |    ⚠️     |  ❌  |  ⚠️  |    ❌    |  ❌  |  ❌  |  ❌  |  ❌  |  ❌  |   ❌   |
+|          [DocPaw-OFDH](https://github.com/bushizhuan/DocPaw-OFDH)           | Apache-2.0 |  ❌  |  ✅  |  ⚠️  |   ❌   |  ❌   |  ❌   |  ❌   |  ❌  |   ❌   |    ⚠️     |  ✅  |  ✅  |    ❌    |  ❌  |  ❌  |  ❌  |  ❌  |  ✅  |   ❌   |
 
 ## C++
 
@@ -265,6 +269,7 @@ OFD 是中国的电子文件版式标准，广泛用于电子发票、电子证�
 - [ofdh5](https://github.com/iwlking/ofdh5) - 移动端 Canvas 预览
 - [ofd-to-pdf (campfire)](https://github.com/campfire-code/ofd-to-pdf) - JavaScript OFD→PDF 转换
 - [ofdrw-viewer](https://github.com/ofdrw/ofdrw-viewer) - ofdrw 的浏览器查看器，支持打印与全文检索
+- [DocPaw-Reader](https://github.com/bushizhuan/DocPaw-Reader) - OFD/H 浏览器阅读器，支持检索、TXT/PNG 导出与打印
 - [file-viewer](https://github.com/flyfish-dev/file-viewer) - 多格式浏览器预览，支持 OFD/HTML 输出
 - [ofdview](https://github.com/moxudocs/ofdview) - USDOC WASM 浏览器阅读器，支持验签与发票预览
 - [OFDView](https://github.com/guinanlin/OFDView) - 预览 + HTML 输出
@@ -301,6 +306,7 @@ OFD 是中国的电子文件版式标准，广泛用于电子发票、电子证�
 |                [OFDee](https://github.com/gityongzhong/OFDee)                 |    MIT     |  ✅  |  ✅  |  ❌  |   ✅   |  ✅   |  ❌   |  ❌   |  ❌  |   ❌   |    ❌     |  ❌  |  ❌  |    ❌    |  ❌  |  ❌  |  ❌  |  ❌  |  ❌  |   ❌   |
 |     [ofd-to-pdf (campfire)](https://github.com/campfire-code/ofd-to-pdf)      |    MIT     |  ❌  |  ✅  |  ⚠️  |   ❌   |  ✅   |  ❌   |  ❌   |  ❌  |   ❌   |    ❌     |  ❌  |  ❌  |    ❌    |  ❌  |  ❌  |  ❌  |  ❌  |  ❌  |   ❌   |
 |             [ofdrw-viewer](https://github.com/ofdrw/ofdrw-viewer)             |    MIT     |  ✅  |  ✅  |  ⚠️  |   ✅   |  ❌   |  ✅   |  ❌   |  ❌  |   ⚠️   |    ❌     |  ❌  |  ✅  |    ✅    |  ✅  |  ✅  |  ❌  |  ❌  |  ❌  |   ❌   |
+|         [DocPaw-Reader](https://github.com/bushizhuan/DocPaw-Reader)          | Apache-2.0 |  ✅  |  ✅  |  ⚠️  |   ✅   |  ❌   |  ✅   |  ❌   |  ❌  |   ⚠️   |    ❌     |  ❌  |  ⚠️  |    ❌    |  ✅  |  ✅  |  ❌  |  ❌  |  ❌  |   ❌   |
 
 ## Pascal
 
